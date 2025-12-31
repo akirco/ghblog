@@ -1,0 +1,7 @@
+{
+  "name": "issues-blog",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
