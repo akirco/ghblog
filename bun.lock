@@ -5,8 +5,11 @@
     "": {
       "name": "issues-blog",
     },
-    "packages/imd": {
+    "packages/tui": {
       "name": "imd",
+      "bin": {
+        "imd": "src/main.tsx",
+      },
       "dependencies": {
         "@opentui/core": "^0.1.65",
         "@opentui/react": "^0.1.65",
@@ -36,6 +39,7 @@
         "@radix-ui/react-toast": "1.2.15",
         "@radix-ui/react-toggle": "1.1.10",
         "@radix-ui/react-tooltip": "1.2.8",
+        "@tiptap/core": "^3.14.0",
         "@tiptap/extension-code-block-lowlight": "^3.14.0",
         "@tiptap/extension-emoji": "^3.14.0",
         "@tiptap/extension-highlight": "^3.14.0",
@@ -888,7 +892,7 @@
 
     "image-q": ["image-q@4.0.0", "https://registry.npmmirror.com/image-q/-/image-q-4.0.0.tgz", { "dependencies": { "@types/node": "16.9.1" } }, "sha512-PfJGVgIfKQJuq3s0tTDOKtztksibuUEbJQIYT3by6wctQo+Rdlh7ef4evJ5NCdxY4CfMbvFkocEwbl4BF8RlJw=="],
 
-    "imd": ["imd@workspace:packages/imd"],
+    "imd": ["imd@workspace:packages/tui"],
 
     "import-fresh": ["import-fresh@3.3.1", "https://registry.npmmirror.com/import-fresh/-/import-fresh-3.3.1.tgz", { "dependencies": { "parent-module": "^1.0.0", "resolve-from": "^4.0.0" } }, "sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ=="],
 
